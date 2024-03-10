@@ -32,7 +32,7 @@ def initialize_components():
 llm, embedding = initialize_components()
 
 # Read PDF and extract text
-pdf_file_path = 'COI...pdf'  # Provide the path to your PDF file
+pdf_file_path = 'aman.pdf'  # Provide the path to your PDF file
 raw_text = read_pdf(pdf_file_path)
 
 # Split text into chunks
